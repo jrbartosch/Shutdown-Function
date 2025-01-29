@@ -5,6 +5,5 @@ if ans == 'Yes':
     os.system('shutdown /s /t 3')
 elif ans == 'No':
     print ('Shutdown Sequence Aborted.')
-    exit()
 else:
     print ('Invalid Input.')
