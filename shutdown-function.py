@@ -4,6 +4,6 @@ if ans == 'Yes':
     print('Shutting Down...')
     os.system('shutdown /s /t 3')
 elif ans == 'No':
-    print ('Shutdown Sequence Aborted.')
+    print ('Shutdown Aborted.')
 else:
     print ('Invalid Input.')
